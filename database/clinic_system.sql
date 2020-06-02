@@ -79,7 +79,8 @@ CREATE TABLE `patient` (
   `gender` varchar(30) NOT NULL,
   `residence` varchar(30) NOT NULL,
   `dob` date NOT NULL,
-  `address` varchar(10) NOT NULL
+  `address` varchar(10) NOT NULL,
+  `password` varchar(255) NOT NULL
 ) ENGINE=InnoDB DEFAULT CHARSET=utf8mb4;
 
 -- --------------------------------------------------------
