@@ -1,0 +1,30 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <title>mainpage.html</title>
+    <link rel="stylesheet" href="mainpage.css">
+    <meta charset = "UTF-8" />
+  </head>
+  <body>
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Bookings</h1>
+      </div>
+    </div>
+    <form action="insert.php" method="POST">
+       <fieldset>
+          <legend>Book Prefered Time</legend>
+          <p>
+            Hospital ID<input type="number" name="meterid"><br><br>
+            <label for="img">Select image:</label>
+              <input type="file" id="img" name="image" accept="image/*"><br><br>
+            Date<input type="date" name="date"><br><br>
+
+            <div id="button" value='insert'><a href="">Submit</a></div><br><br>
+            <div id="button"><a href="clear">Clear</a></div>
+          </p>
+
+       </fieldset>
+    </form>
+  </body>
+</html>

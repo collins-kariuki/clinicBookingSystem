@@ -1,0 +1,63 @@
+<!DOCTYPE HTML>
+<html lang = "en">
+  <head>
+    <title>usersignup.html</title>
+    <link rel="stylesheet" href="usersignup.css">
+    <meta charset = "UTF-8" />
+  </head>
+  <body>
+    <div class="hero-image">
+      <div class="hero-text">
+        <h1>Sign Up</h1>
+      </div>
+    </div>
+
+    <div class="col-md-6">
+    <h2>Fill The Form Accordingly</h2>
+    <div class="panel-body">
+    <form action="signup.php" method="post">
+            <div class="form-group">
+              <label for="email">Email</label>
+              <input type="email" class="form-control" id="email" name="email"/>
+            </div><br><br>
+
+        <div class="form-group">
+              <label for="meterid">Hospital ID</label>
+              <input type="number" class="form-control" id="meterid" name="meterid"/>
+            </div><br><br>
+
+            <div class="form-group">
+              <label for="firstname">First Name</label>
+              <input type="text" class="form-control" id="firstname" name="firstname"/>
+            </div><br><br>
+
+            <div class="form-group">
+              <label for="middlename">Middle Name</label>
+              <input type="text" class="form-control" id="middlename" name="middlename"/>
+            </div><br><br>
+
+            <div class="form-group">
+              <label for="dateofbirth">Date Of Birth</label>
+              <input type="date" class="form-control" id="dateofbirth" name="dateofbirth"/>
+            </div><br><br>
+
+            <div class="form-group">
+              <label for="gender">Gender</label>
+              <input type="text" class="form-control" id="gender" name="gender"/>
+            </div><br><br>
+
+            <div class="form-group">
+              <label for="password">Password</label>
+              <input type="password" class="form-control" id="password" name="password"/>
+            </div><br><br>
+        </div> 
+        <input type="submit" value="Submit" name="submit"><br><br>
+              
+        <input type="reset" value="Reset" name="reset">   
+          
+
+       
+    </form>
+  </div>
+  </body> 
+</html>
